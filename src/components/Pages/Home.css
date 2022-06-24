@@ -1,0 +1,12 @@
+.card {
+  flex-direction: row;
+  width: 100%;
+  height: 15rem;
+  margin-top: 15px;
+}
+.cardImg {
+  width: 30%;
+}
+#leadership{
+    flex-direction: row-reverse;
+}

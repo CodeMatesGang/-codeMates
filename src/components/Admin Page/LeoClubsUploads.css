@@ -1,0 +1,14 @@
+.alphaclub{
+    width: 100%;
+    height: auto;
+    background-color: aquamarine;
+}
+.alphaclub .btn, .omegaclub .btn{
+    height: 2.5rem;
+    margin-top: 5px;
+}
+.omegaclub{
+    width: 100%;
+    height: auto;
+    background-color: aqua;
+}

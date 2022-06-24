@@ -1,0 +1,27 @@
+import { Container } from 'react-bootstrap'
+import image from '../../images/services.png'
+function Services() {
+    return <>
+     <Container className='mainContainer'>
+            <img
+                src={image}
+                alt="Services"
+                height="300px"
+                width="100%"
+                className='shadow rounded'
+            />  
+            <div>
+                <h2>Our Services</h2>
+                <h4>Sub Heading</h4>
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere eveniet qui mollitia voluptas blanditiis doloribus officia eum id. Sequi iusto libero fugiat amet asperiores fugit quidem possimus esse, beatae harum, et atque necessitatibus facilis. Iusto corrupti nisi ullam exercitationem quaerat! Illum soluta odit reprehenderit ab! Dolore sapiente et vitae modi temporibus, quo nulla eius illo nobis voluptatem, officiis doloribus, est aut atque aliquam dignissimos mollitia odio quae accusamus aliquid nam fuga. Tenetur odio corrupti quasi aspernatur, recusandae expedita asperiores at quos minima dolores, culpa reiciendis in totam delectus quae. Labore, corrupti sed modi ipsam impedit dolores eius velit ab tenetur.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim suscipit doloremque ab officia dolorem mollitia amet aperiam dolor, ad eius magni minima similique nisi ipsa totam, aliquam possimus sapiente architecto placeat sunt pariatur ea nostrum? Nesciunt nemo doloribus blanditiis unde accusantium repellendus debitis aliquid animi? Neque ex at temporibus accusantium aliquam inventore minima consectetur? Nobis sequi quidem maxime, eveniet in sit, eligendi aliquid voluptatum accusantium esse doloribus? Tenetur perferendis totam quasi iure assumenda velit beatae commodi voluptatum. Similique eveniet ex explicabo, et molestias corporis laborum nostrum unde excepturi voluptatum dignissimos! Magnam placeat veritatis suscipit perspiciatis vitae non illum! Ex aperiam eius nemo dolorem voluptates sapiente commodi odio doloremque? Officiis iusto quam omnis odit reiciendis at aut delectus, obcaecati, veritatis quis quae eveniet consequatur. Fugit est exercitationem, accusantium tempore iusto nihil accusamus dolorum expedita. Rerum aut hic aliquam ducimus quia pariatur maiores nisi. Iusto odio doloremque ex aliquam ducimus velit modi, praesentium cum natus, pariatur consequuntur recusandae eum dignissimos. Illo assumenda, repudiandae atque omnis neque excepturi numquam odio voluptatibus officiis, fuga dolorum deserunt similique mollitia deleniti quia praesentium ut non a! Nulla iste optio sint veritatis molestiae fuga maxime voluptatum, odio labore assumenda suscipit magni, porro, officiis aliquid! Id impedit ea voluptatem velit dolores rem odio distinctio quae minima dolorem autem, deserunt sequi, aspernatur perferendis. Corrupti molestias quos asperiores optio natus! Quisquam magnam perferendis fuga accusamus aut porro nulla numquam, quo, sapiente quaerat corporis molestias possimus. Libero dolores laboriosam consectetur. Earum mollitia repellendus fuga, corrupti illum molestiae dolorum rerum consequuntur voluptate labore et vero totam. Minima aliquid assumenda, unde non expedita error dolorem! Eligendi repellendus nesciunt culpa, quas nobis rerum sequi adipisci, soluta earum magni aliquid maiores, praesentium qui. Sunt mollitia facilis ullam quasi, autem quaerat exercitationem modi beatae, cum nam architecto rerum temporibus esse. Amet quas adipisci voluptate! Vel quidem molestias doloremque similique accusantium commodi perferendis eos, facilis nisi aut aspernatur in placeat dolorem earum maxime excepturi eligendi, adipisci repudiandae possimus. Fuga iure necessitatibus autem perspiciatis id. Quam aliquid dolor laboriosam quae laudantium deserunt aut, repudiandae dolorum officia numquam tempora reprehenderit explicabo laborum earum odit saepe officiis error ab, illo voluptatibus praesentium sint cumque! Minima porro rem sed eligendi tenetur alias libero doloribus expedita, quasi, ipsum, unde nisi cumque reprehenderit! Nesciunt, iste est? Doloremque, quo! Laudantium, sed? Neque doloremque illum atque, omnis autem sit ipsam, commodi harum recusandae eos corrupti pariatur consectetur, corporis iusto incidunt beatae cum quo dicta aspernatur obcaecati. Ullam totam debitis libero eligendi asperiores rem ipsa ducimus sint architecto tempora amet maxime sunt, harum quia error, facere assumenda magni vel ea sapiente quo? Optio libero unde quaerat consectetur, reiciendis laborum a earum quia alias voluptas numquam iste! Non exercitationem quasi quas. Nemo, molestiae. Deserunt voluptates voluptatum iure consequatur mollitia ut iste. Aspernatur, ipsam nesciunt quasi dolores consequatur amet esse earum accusantium doloribus vero? Id adipisci dolorum quaerat laborum dolores eum reprehenderit, inventore accusamus beatae natus rerum eligendi dolor explicabo, odit harum accusantium, facere nesciunt culpa sit similique cupiditate ratione qui. Animi recusandae optio corrupti dolores nam earum!
+                </p>
+
+                <a href="https://www.facebook.com/pages/category/Community-Organization/Lions-Club-of-Colombo-Centennial-113789430260504/" target='_blank' rel="noreferrer" className='mt-5'> Click Here to find our Services!</a>
+            </div>
+    </Container>
+    </>
+}
+
+export default Services
