@@ -42,6 +42,7 @@ function NavBar() {
                       <Nav.Link as={Link} to='/lcif' eventKey="4">LCIF</Nav.Link>
                       <Nav.Link as={Link} to='/member' eventKey="5">Member</Nav.Link>
                       <Nav.Link as={Link} to='/events' eventKey="6">Events</Nav.Link>
+                      <Nav.Link as={Link} to='/conferenceAdmin' eventKey="7">ConferenceAdmin</Nav.Link>
                       <Nav.Link as={Link} to='/conference' eventKey="7">Conference</Nav.Link>
                       <Nav.Link as={Link} to='/join' className='hide-for-lg-screen' eventKey="8"><Button className='smScreenBtn' variant="primary">Join</Button></Nav.Link>
                       <Nav.Link as={Link} to='/donate' className='mb-2 hide-for-lg-screen' eventKey="9"><Button className='smScreenBtn' variant="warning">Donate</Button></Nav.Link>

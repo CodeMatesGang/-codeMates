@@ -1,0 +1,49 @@
+input[type="text"],
+input[type="date"],
+input[type="time"],
+select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0px;
+    display:flex;
+    border: 1px solid #ccc;
+    border-radius: 4PX;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    width: 100%;
+    background: #4caf50;
+    color: #ccc;
+    padding: 14px 20px;
+    margin:8px 0px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="button"] {
+    width: 100%;
+    background: #48453e;
+    color: #ccc;
+    padding: 14px 20px;
+    margin:8px 0px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
