@@ -1,0 +1,13 @@
+@media(max-width:769px) {
+    .imgBlog {
+        height: 200px !important;
+    }
+
+}
+.LeoClubs{
+    text-align: center;
+}
+.leoImage{
+    border-radius: 2em;
+    box-shadow: 6px 7px 15px -4px rgba(0, 0, 0, 0.73);
+}

@@ -1,0 +1,12 @@
+.leoImage {
+    border-radius: 2em;
+    box-shadow: 6px 7px 15px -4px rgba(0, 0, 0, 0.73);
+}
+.leoCol{
+    /* border: 1px solid rgb(198, 195, 195); */
+        text-align: center;
+    padding: 4px;
+}
+.editDeleteAddBtn{
+    width: 100px;
+}

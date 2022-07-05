@@ -1,0 +1,16 @@
+.App{
+    margin-top: 53px;
+}
+.btn:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+h2,h4 {
+    text-align: center;
+    margin-top: 15px;
+    margin-left: 0px !important;
+
+}
+a{
+    text-decoration: none;
+}
