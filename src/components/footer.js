@@ -3,6 +3,7 @@ import { Container, Row, Col, ListGroup } from "react-bootstrap";
 import { BsFacebook } from "react-icons/bs";
 import { BsYoutube } from "react-icons/bs";
 import Logo from "../images/logo.png";
+import LogoInternational from "../images/logoInternational.png";
 import "./footer.css";
 function Footer() {
   return (
@@ -154,26 +155,28 @@ function Footer() {
             {/* Colum 04 */}
             <Col xs={12} md={6} lg={3} className="footerColumn">
               <ListGroup horizontal className="media mx-auto">
-                <ListGroup.Item>
-                  <a
-                    href="https://www.facebook.com/Lions-Club-of-Colombo-Centennial-113789430260504/"
-                    target="_blank"
-                    rel="noreferrer"
-                    className="mx-auto footerLink"
-                  >
-                    <BsFacebook style={{ fontSize: "1.5em" }} />
-                  </a>
-                </ListGroup.Item>
-                <ListGroup.Item>
-                  <a
-                    href="https://www.youtube.com/channel/UCXaUSPaAVgcX1aUgyJ2Qmcg/featured"
-                    target="_blank"
-                    rel="noreferrer"
-                    className="mx-auto footerLink"
-                  >
-                    <BsYoutube style={{ fontSize: "1.5em" }} />
-                  </a>
-                </ListGroup.Item>
+                <span className="d-flex mx-auto">
+                  <ListGroup.Item>
+                    <a
+                      href="https://www.facebook.com/Lions-Club-of-Colombo-Centennial-113789430260504/"
+                      target="_blank"
+                      rel="noreferrer"
+                      className="mx-auto footerLink "
+                    >
+                      <BsFacebook style={{ fontSize: "1.5em" }} />
+                    </a>
+                  </ListGroup.Item>
+                  <ListGroup.Item>
+                    <a
+                      href="https://www.youtube.com/channel/UCXaUSPaAVgcX1aUgyJ2Qmcg/featured"
+                      target="_blank"
+                      rel="noreferrer"
+                      className="mx-auto footerLink "
+                    >
+                      <BsYoutube style={{ fontSize: "1.5em" }} />
+                    </a>
+                  </ListGroup.Item>
+                </span>
               </ListGroup>
 
               <ListGroup variant="flush">
@@ -191,8 +194,35 @@ function Footer() {
                         </Link>
                       </div>
                     </ListGroup.Item>
-                    <ListGroup.Item className="lcccName">
+                    <ListGroup.Item className="lcccName text-center">
                       Lions&nbsp;Club&nbsp;of&nbsp;Colombo&nbsp;Centennial
+                    </ListGroup.Item>
+                  </ListGroup>
+                </ListGroup.Item>
+              </ListGroup>
+
+              <ListGroup variant="flush">
+                <ListGroup.Item>
+                  <ListGroup>
+                    <ListGroup.Item>
+                      <div className="d-flex justify-content-center">
+                        <a
+                          href="https://www.lionsclubs.org/en"
+                          target="_blank"
+                          rel="noreferrer"
+                          className="mx-auto footerLink"
+                        >
+                          <img
+                            src={LogoInternational}
+                            width="70"
+                            height="70"
+                            alt="Lions Clubs International"
+                          />
+                        </a>
+                      </div>
+                    </ListGroup.Item>
+                    <ListGroup.Item className="lcccName text-center">
+                      Lions&nbsp;Clubs&nbsp;International
                     </ListGroup.Item>
                   </ListGroup>
                 </ListGroup.Item>

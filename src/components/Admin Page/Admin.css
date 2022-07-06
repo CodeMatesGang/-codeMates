@@ -1,0 +1,8 @@
+.adminContainer{
+    background-color: rgb(255, 255, 255);
+}
+.adminBox{
+    background-color: rgb(249, 255, 254);
+    border-radius: 15px;
+    box-shadow: 6px 7px 10px -4px rgba(0, 0, 0, 0.73);
+}

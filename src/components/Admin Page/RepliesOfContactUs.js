@@ -20,7 +20,6 @@ const RepliesOfContactUs = () => {
   return (
     <>
       <Container>
-        <h2 style={{ marginBottom: "15px" }}>Replies</h2>
         <Table
           responsive
           striped
@@ -41,6 +40,7 @@ const RepliesOfContactUs = () => {
             {[...replyList].reverse().map((listItem) => {
               const { id, fName, lName, email, message, replyStatus } =
                 listItem;
+              console.log(listItem);
               return (
                 <tr key={id}>
                   <td>
@@ -55,18 +55,18 @@ const RepliesOfContactUs = () => {
                     {message}
                   </td>
                   <td className="d-flex justify-content-center">
-                    {replyStatus === 1 ? (
-                      <Button className="w-75" variant="success">
-                        Replied&nbsp;&nbsp;
+                    {replyStatus === "1" ? (
+                      <Button className="w-100" variant="success">
+                        Replied&nbsp;
                         <BsCheckCircleFill />
                       </Button>
                     ) : (
                       <Button
                         as={Link}
                         to={`/replytofeedback/${id}`}
-                        className="w-75"
+                        className="w-100"
                       >
-                        Reply&nbsp;&nbsp;
+                        Reply&nbsp;&nbsp;&nbsp;
                         <BsFillArrowRightCircleFill />
                       </Button>
                     )}

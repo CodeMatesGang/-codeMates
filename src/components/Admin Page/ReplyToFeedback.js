@@ -52,6 +52,7 @@ function ReplyToFeedback({ data }) {
       // });
     } catch (error) {
       console.log(error);
+      console.log("lllllllllllllllllllllllllllllllll");
     }
   };
   useEffect(() => {
@@ -159,7 +160,7 @@ function ReplyToFeedback({ data }) {
             <Button
               variant="success"
               as={Link}
-              to="/repliesofcontactUs"
+              to="/admin"
               className="w-50 mx-3"
             >
               Go&nbsp;Back

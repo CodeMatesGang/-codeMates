@@ -94,6 +94,16 @@ function NavBar() {
                   Donate
                 </Button>
               </Nav.Link>
+              <Nav.Link
+                as={Link}
+                to="/signin"
+                className="hide-for-lg-screen"
+                eventKey="10"
+              >
+                <Button className="smScreenBtn" variant="danger">
+                  Sign&nbsp;in
+                </Button>
+              </Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>

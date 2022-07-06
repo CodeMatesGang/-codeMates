@@ -306,7 +306,7 @@ function EditClub() {
 
           {preview ? (
             <figure className="image is-128x128">
-              <img src={preview} alt="Preview Image" />
+              <img src={preview} alt="Preview Image" width="200" height="200" />
             </figure>
           ) : (
             ""
